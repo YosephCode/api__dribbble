@@ -1,0 +1,29 @@
+<!-- Popular Shots Page -->
+<section class="cs-detailsPopularShotsPage">
+    <article class="cs-status">
+        <figure>
+            <article class="cs-figure">
+                <img class="cs-largePhoto" ng-src="{{showDetails.image_url}}">
+                <div class="cs-infosPhoto">
+                    <div class="cs-infoPhoto">Views: {{showDetails.views_count}}</div>
+                    <div class="cs-infoPhoto">Likes: {{showDetails.likes_count}}</div>
+                </div>
+            </article>
+        </figure>
+        <article class="cs-description">
+            <div class="cs-player">
+                <img class="cs-avatar" ng-src="{{showDetails.player.avatar_url}}" alt="{{showDetails.player.name}}">
+                <div class="cs-info">
+                    <div><label for="name">{{showDetails.player.name}}</label></div>
+                    <div><span>{{showDetails.player.location}}</span></div>
+                    <div><label for="followers">Seguidores: {{showDetails.player.followers_count}}</label></div>
+                </div>
+                <div class="cs-text">
+                    <p>{{showDetailsDescription}}</p>
+                </div>
+            </div>
+        </article>
+    </article>
+
+    
+</section>

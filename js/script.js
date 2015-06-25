@@ -29,6 +29,7 @@ var app = angular.module('Dribbble', ['Services','ngRoute']);
 app.config(function($routeProvider){
 	$routeProvider
 	.when('/', {templateUrl:'partials/popularShots.html'})
+	.when('/popularShot/details', {templateUrl:'partials/detailspopularShots.html', controller:'detailspopularShots'})
 	.otherwise({redirectTo:'/'})
 });
 
@@ -123,5 +124,12 @@ app.controller('popularShotsController', function($scope, popularShotsService){
 	$scope.showDetails = function(index){
 		$scope.detailsShot = $scope.popShots[index];		
 	};
+
+});
+
+app.controller('detailspopularShots', function($scope, popularShotsService){
+	$scope.showDetails = $scope.detailsShot;
+	var descript = $scope.detailsShot.description;
+	$scope.showDetailsDescription = descript.replace(/(<([^>]+)>)/ig,"");
 
 });

@@ -25,7 +25,8 @@ body{font-family: "Roboto"}
 .cs-mainContent .cs-popularShotsPage .grid .grid-item .thumbnail img {border: 1px solid #c8caca;border-radius: 3px;}    
 .cs-mainContent .cs-popularShotsPage .grid .grid-item .thumbnail .cs-infos {text-align: center;height: 55px;overflow-y: hidden;}
 .cs-mainContent .cs-popularShotsPage .grid .grid-item .thumbnail .cs-infos .cs-title {height: 30px;overflow-y: hidden;}
-/* Modal */
+
+/* Modal 
 .cs-mainContent .cs-popularShotsPage .modal .modal-dialog .modal-content {max-width: 300px;margin:0 auto;word-wrap:break-word;}
 .cs-mainContent .cs-popularShotsPage .modal .modal-dialog .modal-content .modal-header {text-align: center;}
 .cs-mainContent .cs-popularShotsPage .modal .modal-dialog .modal-content .modal-body figure {position:relative;}
@@ -35,7 +36,23 @@ body{font-family: "Roboto"}
 .cs-mainContent .cs-popularShotsPage .modal .modal-dialog .modal-content .modal-body .cs-player .cs-avatar {width: 60px;height: 60px;border-radius: 50%;vertical-align: top;}
 .cs-mainContent .cs-popularShotsPage .modal .modal-dialog .modal-content .modal-body .cs-player .cs-info {padding-left:10px;display: inline-block;}
 .cs-mainContent .cs-popularShotsPage .modal .modal-dialog .modal-content .modal-body .cs-player .cs-info label{margin: 0;}
+*/
 
+/*==============================
+	Details Popular Shots Page
+================================*/
+/* Figure */
+.cs-mainContent .cs-mainContainer .cs-detailsPopularShotsPage figure {position:relative;width: 100%;}
+.cs-mainContent .cs-mainContainer .cs-detailsPopularShotsPage figure .cs-figure {margin:0 auto;max-width: 800px;position: relative; }
+.cs-mainContent .cs-mainContainer .cs-detailsPopularShotsPage figure .cs-largePhoto {border: 1px solid #c8caca;border-radius: 4px;width: 100%;max-width: 800px;}
+.cs-mainContent .cs-mainContainer .cs-detailsPopularShotsPage figure .cs-infosPhoto { color: white;padding: 5px 5px 0; border-radius: 0 0 4px 4px;bottom: 0;width: 100%;position: absolute;background-color: rgba(0,0,0,0.6);max-width: 800px;}
+/* Description of owner and description about shot */ 
+.cs-mainContent .cs-mainContainer .cs-detailsPopularShotsPage .cs-description {width: 100%;margin-top: 15px;}
+.cs-mainContent .cs-mainContainer .cs-detailsPopularShotsPage .cs-description .cs-player {margin: 0 auto; max-width: 800px;}
+.cs-mainContent .cs-mainContainer .cs-detailsPopularShotsPage .cs-description .cs-player .cs-avatar {width: 60px;height: 60px;border-radius: 50%;vertical-align: top;}
+.cs-mainContent .cs-mainContainer .cs-detailsPopularShotsPage .cs-description .cs-player .cs-info {padding-left:10px;display: inline-block;}
+.cs-mainContent .cs-mainContainer .cs-detailsPopularShotsPage .cs-description .cs-player .cs-info label {margin: 0;}
+.cs-mainContent .cs-mainContainer .cs-detailsPopularShotsPage .cs-description .cs-player .cs-text {margin-top: 10px;padding: 10px}
 
 /*===================
 	Breakpoints
@@ -48,11 +65,6 @@ body{font-family: "Roboto"}
 	.cs-mainContent .cs-popularShotsPage .grid .grid-item {width: 50%; padding: 5px 0;}    	
 	.cs-mainContent .cs-popularShotsPage .grid .grid-item .thumbnail {width: 220px;margin: 0 auto;}
 }
-
-@media (max-width: 520px){
-	.cs-mainContent .cs-popularShotsPage .grid .grid-item {width: 100%;}    
-}
-
-@media (max-width: 301px){
-	.cs-mainContent .cs-popularShotsPage .modal .modal-dialog .modal-content .modal-body figure .cs-largePhoto {width: 100%;}
+@media (max-width: 590px){
+	.cs-mainContent .cs-popularShotsPage .grid .grid-item {width: 100%;}    	
 }
