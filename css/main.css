@@ -26,17 +26,6 @@ body{font-family: "Roboto"}
 .cs-mainContent .cs-popularShotsPage .grid .grid-item .thumbnail .cs-infos {text-align: center;height: 55px;overflow-y: hidden;}
 .cs-mainContent .cs-popularShotsPage .grid .grid-item .thumbnail .cs-infos .cs-title {height: 30px;overflow-y: hidden;}
 
-/* Modal 
-.cs-mainContent .cs-popularShotsPage .modal .modal-dialog .modal-content {max-width: 300px;margin:0 auto;word-wrap:break-word;}
-.cs-mainContent .cs-popularShotsPage .modal .modal-dialog .modal-content .modal-header {text-align: center;}
-.cs-mainContent .cs-popularShotsPage .modal .modal-dialog .modal-content .modal-body figure {position:relative;}
-.cs-mainContent .cs-popularShotsPage .modal .modal-dialog .modal-content .modal-body figure .cs-largePhoto {width: 265px;border: 1px solid #c8caca;border-radius: 4px;}
-.cs-mainContent .cs-popularShotsPage .modal .modal-dialog .modal-content .modal-body figure .cs-infosPhoto { color: white;padding: 5px 5px 0; border-radius: 0 0 4px 4px;bottom: 0;width:99%;position: absolute;background-color: rgba(0,0,0,0.6);}
-.cs-mainContent .cs-popularShotsPage .modal .modal-dialog .modal-content .modal-body .cs-player {margin-top: 15px;}
-.cs-mainContent .cs-popularShotsPage .modal .modal-dialog .modal-content .modal-body .cs-player .cs-avatar {width: 60px;height: 60px;border-radius: 50%;vertical-align: top;}
-.cs-mainContent .cs-popularShotsPage .modal .modal-dialog .modal-content .modal-body .cs-player .cs-info {padding-left:10px;display: inline-block;}
-.cs-mainContent .cs-popularShotsPage .modal .modal-dialog .modal-content .modal-body .cs-player .cs-info label{margin: 0;}
-*/
 
 /*==============================
 	Details Popular Shots Page
@@ -44,6 +33,9 @@ body{font-family: "Roboto"}
 /* Figure */
 .cs-mainContent .cs-mainContainer .cs-detailsPopularShotsPage figure {position:relative;width: 100%;}
 .cs-mainContent .cs-mainContainer .cs-detailsPopularShotsPage figure .cs-figure {margin:0 auto;max-width: 800px;position: relative; }
+.cs-mainContent .cs-mainContainer .cs-detailsPopularShotsPage figure .cs-figure .btn-back {margin-bottom:10px;}
+.cs-mainContent .cs-mainContainer .cs-detailsPopularShotsPage figure .cs-figure .btn-back .cs-arrow,.cs-mainContent .cs-mainContainer .cs-detailsPopularShotsPage figure .cs-figure .btn-back .cs-back{display: inline-block;}
+.cs-mainContent .cs-mainContainer .cs-detailsPopularShotsPage figure .cs-figure .btn-back .arrow-left { width: 0; height: 0; border-top: 7px solid transparent; border-bottom: 7px solid transparent; vertical-align:middle; margin-right: 3px; border-right:10px solid white;}
 .cs-mainContent .cs-mainContainer .cs-detailsPopularShotsPage figure .cs-largePhoto {border: 1px solid #c8caca;border-radius: 4px;width: 100%;max-width: 800px;}
 .cs-mainContent .cs-mainContainer .cs-detailsPopularShotsPage figure .cs-infosPhoto { color: white;padding: 5px 5px 0; border-radius: 0 0 4px 4px;bottom: 0;width: 100%;position: absolute;background-color: rgba(0,0,0,0.6);max-width: 800px;}
 /* Description of owner and description about shot */ 
