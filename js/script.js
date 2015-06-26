@@ -130,6 +130,9 @@ app.controller('popularShotsController', function($scope, popularShotsService){
 app.controller('detailspopularShots', function($scope, popularShotsService){
 	$scope.showDetails = $scope.detailsShot;
 	var descript = $scope.detailsShot.description;
-	$scope.showDetailsDescription = descript.replace(/(<([^>]+)>)/ig,"");
+	if(descript != null || descript != undefined){
+		$scope.showDetailsDescription = descript.replace(/(<([^>]+)>)/ig,"");	
+	}
+	
 
 });
