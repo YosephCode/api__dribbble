@@ -23,7 +23,7 @@
                     <div><label for="followers">Seguidores: {{showDetails.player.followers_count}}</label></div>
                 </div>
                 <div class="cs-text">
-                    <p>{{showDetailsDescription}}</p>
+                    <p ng-if="showDetailsDescription">{{showDetailsDescription}}</p>
                 </div>
             </div>
         </article>
